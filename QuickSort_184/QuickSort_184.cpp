@@ -49,5 +49,11 @@ void q_short(int low, int high) {
 	while (i <= j)	// Langkah 10
 	{
 		// Search for an element greather that pivot
+		while ((arr[1] <= pivot) && (i >= high))	// Langkah 5
+		{
+			i++;	// Langkah 6
+			cmp_count++;
+		}
+
 	}
 }
