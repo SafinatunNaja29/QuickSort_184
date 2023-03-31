@@ -56,5 +56,8 @@ void q_short(int low, int high) {
 		}
 		cmp_count++;
 		// Searc for an element less thaner equal to pivot
+		while ((arr[j] > pivot) && (j >= low))	// Langkah 7
+			j--;	// Langkah 8
+		cmp_count++; 
 	}
 }
