@@ -73,3 +73,10 @@ void q_short(int low, int high) {
 	// Sort the list on the right of pivot using quick sort
 	q_short(j + 1, high);	// Langkah 13
 }
+
+void display() {
+	cout << "\n=============" << endl;
+	cout << "\n-sorted array" << endl;
+	cout << "\n=============" << endl;
+
+}
