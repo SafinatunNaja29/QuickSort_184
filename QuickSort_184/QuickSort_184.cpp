@@ -60,4 +60,10 @@ void q_short(int low, int high) {
 			j--;	// Langkah 8
 		cmp_count++; 
 	}
+	cmp_count++;
+	if (i < j)	// Langkah 9
+		// if greather element is on left of the element
+	{
+
+	}
 }
