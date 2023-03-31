@@ -68,4 +68,6 @@ void q_short(int low, int high) {
 		swap(i, j);
 		mov_count++;
 	}
+	// Sort the list on the left of pivot using quick sort
+	q_short(low, j - 1);	// Langkaj 12
 }
