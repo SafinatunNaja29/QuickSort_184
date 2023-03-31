@@ -84,5 +84,9 @@ void display() {
 	}
 	cout << "\n\nnumber of comparison: " << cmp_count << endl;
 	cout << "Number of data movement: " << mov_count << endl;
+}
 
+int main() {
+	input();
+		// Dort the array using quick sort
 }
