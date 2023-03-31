@@ -64,6 +64,8 @@ void q_short(int low, int high) {
 	if (i < j)	// Langkah 9
 		// if greather element is on left of the element
 	{
-
+		// Swap the element at index i with the element at index j
+		swap(i, j);
+		mov_count++;
 	}
 }
